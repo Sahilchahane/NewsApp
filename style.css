@@ -5,7 +5,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 :root {
     --primary-text-color: #183b56;
     --secondary-text-color: #577592;
@@ -13,35 +12,26 @@
     --accent-color-dark: #1d69a3;
     --bgcolor: white;
     --bgcolornav : #f3faff;
-
-    
-
 }
-
 .dark-theme{
     --primary-text-color: #fff;
     --secondary-text-color: #5c5757;
     --bgcolor: black;
     --bgcolornav :rgb(34, 32, 32);
-    
-}
-
+    }
 body {
     font-family: "Poppins", sans-serif;
     color: var(--primary-text-color);
     background-color: var(--bgcolor)
 }
-
 p {
     font-family: "Roboto", sans-serif;
     color: var(--secondary-text-color);
     line-height: 1.4rem;
 }
-
 a {
     text-decoration: none;
 }
-
 ul {
     list-style: none;
 }
@@ -50,14 +40,11 @@ ul {
     display: flex;
     align-items: center;
 }
-
 .container {
     max-width: 1180px;
     margin-inline: auto;
     overflow: hidden;
 }
-
-
 nav{
     background-color:var(--bgcolornav); 
     box-shadow: 0 0 4px #bbd0e2 ;
@@ -67,23 +54,17 @@ nav{
     left:0;
     right:0;
 }
-
 .company-logo img{
     width: 120px;
     height: 50px;
-    
-}
-
+    }
 .icon{
     width:30px;
   margin: 10px;
- 
-}
-
+ }
 #home{
     background-color: white;
 }
-
 .icon:hover {
     transform: translateY(-2px);
 }
@@ -147,16 +128,12 @@ nav{
 
 .search-button:hover{
     background-color: var(--accent-color-dark);
-     
-}
-
+     }
 .main {
 
     padding-block: 20px;
     margin-top: 80px;
-   
-}
-
+   }
 .cards-container {
     justify-content: space-between;
     flex-wrap: wrap;
@@ -164,7 +141,6 @@ nav{
     align-items: start;
     margin-top: 100px;
 }
-
 .card {
     width: 360px;
     min-height: 400px;
@@ -174,16 +150,12 @@ nav{
     background-color: var(--bgcolor);
     overflow: hidden;
     transition: all 0.3s ease;
-   
-    
-}
-
+   }
 .card:hover {
     box-shadow: 1px 1px 8px #d4ecff;
     background-color: var(--bgcolor);
     transform: translateY(-2px);
 }
-
 .card-header img {
     width: 100%;
     height: 180px;
@@ -192,24 +164,19 @@ nav{
 
 .card-content {
     padding: 12px;
-    
-}
+    }
 
 .news-source {
     margin-block: 12px;
 };
-
-
 @media (min-width: 769px) and (max-width: 1114px) {
     .cards-container {
         margin: 0.20px; }
         .ul-list{
             flex-wrap: wrap;
-            
-       }
+            }
     .search-bar{
         margin-right: 0;
-        
     }
 } 
     
